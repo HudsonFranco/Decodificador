@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <main>
+        
+        <div class="page">
+
+            <h1><img src="imagem/logo.svg" alt="Logo da Alura"></h1>
+            
+
+            <div class="conteiner">
+                
+                <div class="input">
+                    
+                    <textarea id="input-text" placeholder="Digite seu texto" ></textarea>
+                    
+                </div>
+                
+                <div id="output-text">
+                    
+                    <img class="hackerXD" src="imagem/hackerXD.png" alt="Menino com capuz mexendo em um notebook com logo de caveira">
+                    
+                    <h2>Nenhuma mensagem <br> encontrada</h2>
+                    
+                    <span>Digite um texto que você deseja <br> criptografar ou descriptografar.</span>
+                    
+                </div> 
+                
+            </div>
+            
+            <p> ATENÇÃO: Apenas letras minúsculas e sem acento.</p>
+
+            <div class="button">
+              
+                <button onclick="criptografar()" class="criptografar">Criptografar</button>
+    
+                <button onclick="descriptografar()" class="descriptografar">Descriptografar</button>
+
+            </div>
+           
+                
+        </div>
+        
+    </main>
+    <script src="decoder.js"></script>
+</body>
+</html>
